@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: blue;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .todo-input {
+    margin-bottom: 20px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 20px;
+    /* border-bottom: 1px solid #ccc; */
+  }
+  
+  .todo-item .todo-text {
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .todo-item .todo-actions {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .todo-item .todo-actions button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
